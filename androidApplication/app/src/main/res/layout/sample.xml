@@ -8,7 +8,23 @@
     android:padding="40dp"
     android:background="@drawable/pexels">
 
+
+
    <EditText
+       android:id="@+id/Lastname"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+      android:layout_marginTop="90dp"
+      android:ems="10"
+      android:drawableStart="@drawable/baseline_person_24"
+      android:drawablePadding="12dp"
+      android:hint="@string/app_name"
+      android:inputType="textPassword"
+      android:textSize="14sp"/>
+
+
+   <EditText
+       android:id="@+id/firstname"
        android:layout_width="match_parent"
        android:layout_height="60dp"
        android:layout_marginTop="150dp"
@@ -19,18 +35,17 @@
        android:inputType="textEmailAddress"
        android:textSize="14sp"/>
 
-
    <EditText
+       android:id="@+id/mobilenumber"
        android:layout_width="match_parent"
-       android:layout_height="60dp"
-      android:layout_marginTop="16dp"
-      android:ems="10"
-      android:drawableStart="@drawable/baseline_person_24"
-      android:drawablePadding="12dp"
-      android:hint="@string/app_name"
-      android:inputType="textPassword"
-      android:textSize="14sp"
-      
+       android:layout_height="50dp"
+       android:layout_marginTop="240dp"
+       android:ems="10"
+       android:drawableStart="@drawable/baseline_call_24"
+       android:drawablePadding="12dp"
+       android:inputType="number"
+       android:textSize="14sp"/>
+
 
 
 
